@@ -1,0 +1,13 @@
+<script>
+	//divide o número por 2, converte o resultado em string e verifica se o contém ponto. Caso verdadeiro, o número não é par
+	//by Everson Vansoski
+	function ePar(x){
+		var r = (x / 2).toString().includes(".");
+		document.getElementById('result').innerHTML = "O número " + x + (r ? " não" : "") + " é par";
+	}
+</script>
+
+<input id="vlr"/><button onclick="ePar(document.getElementById('vlr').value)">é par?</button>
+<br/>
+<span id="result"></span>
+ 
