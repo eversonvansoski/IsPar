@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IsMyNumeroPar?</title>
+    <script>
+        var calculateIsPar = function() {
+            var numero = document.getElementById("numeroOne").value;
+            var resto = numero % 2;
+            var isPar = 2 / resto; 
+            if(isPar == Infinity) {
+                window.alert("Número é par");
+            } else {
+                window.alert("Número não é par");
+            }
+        }
+    </script>
+</head>
+<body>
+    Meu número: 
+    <input type="number" id="numeroOne"></input>
+    <i>clique aqui =========></i> <button onclick="calculateIsPar()">IsPar?</button>
+</body>
+</html>
