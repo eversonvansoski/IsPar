@@ -1,9 +1,11 @@
 # IsPar
-Métodos para identificar se um número é par, aplicando XGH (Extreme Go-Horse)
--------------------
+Métodos **não recomendados** para identificar se um número é par, aplicando XGH (Extreme Go-Horse)
+_____________________________________________________________________________
 
-Primeiro Método
 
-divide o número por 2, converte o resultado em string e verifica se o contém ponto. Caso verdadeiro, o número não é par;
 
-by Everson Vansoski
+#### Primeiro Método
+
+###### Divide um número por 2, converte o resultado em string e verifica se a string contém ponto. Caso verdadeiro, o número não é par;
+
+_by Everson Vansoski_
